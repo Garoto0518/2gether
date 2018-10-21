@@ -14,7 +14,6 @@ public class SignIn extends AppCompatActivity {
     Button btnLogin;
     private final static int LOGIN_PERMISSION = 1000;
 
-
     protected void onCreate(Bundle savedInstance) {
         super.onCreate(savedInstance);
         setContentView(R.layout.sign_in);
@@ -24,7 +23,7 @@ public class SignIn extends AppCompatActivity {
             public void onClick(View view) {
                 startActivityForResult(
                         AuthUI.getInstance().createSignInIntentBuilder()
-                                .setAllowNewEmailAccounts(true).build(), LOGIN_PERMISSION
+                                .build(), LOGIN_PERMISSION
                 );
             }
         });
@@ -33,20 +32,18 @@ public class SignIn extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == LOGIN_PERMISSION){
-            startNewActivity(resultCode,data);
+        if (requestCode == LOGIN_PERMISSION) {
+            startNewActivity(resultCode, data);
         }
     }
 
     private void startNewActivity(int resultCode, Intent data) {
 
-        if (resultCode == RESULT_OK){
-            Intent intent = new Intent(SignIn.this,ListOnline.class);
+        if (resultCode == RESULT_OK) {
+            Intent intent = new Intent(SignIn.this, ListOnline.class);
             startActivity(intent);
             finish();
-        }
-
-        else{
+        } else {
             Toast.makeText(this, "Login Failed!!!", Toast.LENGTH_SHORT).show();
         }
 

@@ -5,4 +5,12 @@
         android:id = "@+id/action_join"
         android:title="Join"/>
 
+    <item
+        android:id = "@+id/action_log_out"
+        android:title="Logout"/>
+
+    <item
+        android:id="@+id/maps"
+        android:title="Maps"/>
+
 </menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <com.esri.arcgisruntime.mapping.view.MapView
+        android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </com.esri.arcgisruntime.mapping.view.MapView>
+
+    <!--<com.esri.android.map.MapView-->
+        <!--android:id="@+id/map"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--mapoptions.MapType="Streets"-->
+        <!--mapoptions.ZoomLevel="15"-->
+        <!--mapoptions.center="33.772163578 -84.390165106" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/button"-->
+        <!--android:text="Change Basemap"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--/>-->
+
+
+</RelativeLayout>

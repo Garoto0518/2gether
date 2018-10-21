@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "862280783519",
+    "firebase_url": "https://gether-ad9e5.firebaseio.com",
+    "project_id": "gether-ad9e5",
+    "storage_bucket": "gether-ad9e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862280783519:android:07538afb3e88ac5f",
+        "android_client_info": {
+          "package_name": "com.garoto.esrihackgtmaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862280783519-7doe88u4stmvr2e6hinf0lbfegngpks9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.garoto.esrihackgtmaps",
+            "certificate_hash": "92bc2771445132887881549bc39cf3c31bf71203"
+          }
+        },
+        {
+          "client_id": "862280783519-gqlmqs5b089jmcusm3horafs6i0v2n22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1SSOzQ0-Vx3rreI2-UVTbQ3AilokghJs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862280783519-gqlmqs5b089jmcusm3horafs6i0v2n22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
